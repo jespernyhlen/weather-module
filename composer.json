@@ -1,0 +1,37 @@
+{
+    "name": "jespernyhlen/weather-module",
+    "description": "Weather module for anax",
+    "license": "MIT",
+    "minimum-stability": "beta",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Jesper Nyhlén",
+            "email": "jeppe_nyhlen@hotmail.com",
+            "homepage": "https://dbwebb.se",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/jespernyhlen/weather-module/issues"
+    },
+    "autoload": {
+        "psr-4": {
+            "Anax\\": "src/",
+            "Jen\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.2",
+        "anax/commons": "^2.0.0@beta",
+        "anax/anax-cli": "^1.2"
+    },
+    "require-dev": {
+        "phpmetrics/phpmetrics": "^2",
+        "phpunit/phpunit": "^7",
+        "anax/anax-lite": "^1.0.24",
+        "anax/page": "^2.0.0-beta.1",
+        "anax/view": "^2.0.2",
+        "anax/url": "^2.0.0-alpha.1"
+    }
+}
