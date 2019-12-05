@@ -1,5 +1,5 @@
 # Revision history
 
-## v1.0.0 (2019-11-28)
+## v1.0.0 (2019-12-05)
 
 -   First version.
