@@ -7,7 +7,7 @@ filter:
 build:
     dependencies:
         before:
-            - command: 'mkdir'
+            - command: 'mkdir build'
 
     tests:
         override:
