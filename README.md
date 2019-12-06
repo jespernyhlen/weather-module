@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/jespernyhlen/weather-module.svg?branch=master)](https://travis-ci.org/jespernyhlen/weather-module)  
+[![Build Status](https://scrutinizer-ci.com/g/jespernyhlen/weather-module/badges/build.png?b=master)](https://scrutinizer-ci.com/g/jespernyhlen/weather-module/build-status/master) [![Code Coverage](https://scrutinizer-ci.com/g/jespernyhlen/weather-module/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/jespernyhlen/weather-module/?branch=master) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/jespernyhlen/weather-module/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/jespernyhlen/weather-module/?branch=master)
+
 # Anax weather module
 
 This weather module works together with an Anax installation.
