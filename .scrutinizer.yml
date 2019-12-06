@@ -1,17 +1,14 @@
-imports:
-    - php
-
-filter:
-    excluded_paths: [vendor/*, test/*]
-
 build:
-    dependencies:
-        before:
-            - command: 'mkdir build'
+    nodes:
+        analysis:
+            tests:
+                override:
+                    - php-scrutinizer-run
 
-    tests:
-        override:
-            - command: 'phpunit --configuration .phpunit.xml'
-              coverage:
-                  file: 'build/coverage.clover'
-                  format: 'php-clover'
+        tests-and-coverage:
+            tests:
+                override:
+                    - command: 'make phpunit'
+                      coverage:
+                          file: 'build/coverage.clover'
+                          format: 'php-clover'
